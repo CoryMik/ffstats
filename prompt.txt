@@ -57,6 +57,8 @@ Steps:
    - "most_poops" = top 3 user_ids by poop_count
    - "best_team_name" = most creative names (subjective)
    - "best_draft" = team that got the best values (subjective)
+      - The "info" field should be a short, general phrase (e.g., "Well-rounded draft with strong overall value") without listing specific players or rounds.
    - "shakiest_draft" = team with most risky/poor balance (subjective)
+     - The "info" field should be a short, general phrase (e.g., "Unsteady roster construction with higher risk") without listing specific players or rounds.
 
 Output: Return only valid JSON following the structure above.
