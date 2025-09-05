@@ -1,0 +1,62 @@
+You are given three JSON files from Sleeper fantasy football:
+
+1. teams_league2.json — contains user_id, display_name, metadata (team_name, avatar, etc.)
+2. draft_league2.json — contains overall draft info (rounds, slots, etc.)
+3. draft_picks_league2.json — contains each pick, player metadata, picked_by user_id, and reactions (with emoji counts).
+
+Task: Combine these into a single JSON file called league_data.json with the following structure:
+
+{
+  "league_name": "<League Name from draft.json or manual input>",
+  "season": <season year>,
+  "scoring_type": "<ppr/half/standard>",
+  "superlatives": {
+    "most_poops": [<top 3 user_ids ranked by poop_count>],
+    "best_team_name": [<user_ids you judge to have the most creative names>],
+    "best_draft": {
+        "team_id":<user_id judged best draft value>
+        "info" : "<quick few words to summarize why its the best draft>"
+        },
+    "shakiest_draft":
+    {
+         "team_id":<user_id judged weakest draft>
+         "info" : "<quick few words to summarize why its the worst draft>"]
+    },
+
+  },
+  "teams": [
+    {
+      "user_id": "<user_id>",
+      "display_name": "<display_name>",
+      "team_name": "<team_name or fallback to display_name>",
+      "avatar_url": "<full Sleeper avatar URL or default>",
+      "grade": "<Letter Grade you assign based on draft>",
+      "creativity_score": <1–10 rating of team name creativity>,
+      "blurb_good": "<Short blurb of what went well in draft>",
+      "blurb_bad": "<Short blurb of weaknesses or risks>",
+      "poop_count": <total poop emojis from reactions in draft_picks.json>,
+      "poop_events": [
+        {
+          "player": "<player drafted>",
+          "round": <round number>,
+          "poops": <number of poop reactions>
+        }
+      ]
+    },
+    ...
+  ]
+}
+
+Steps:
+1. Parse teams.json to map each user_id → display_name, team_name, avatar (build avatar_url using https://sleepercdn.com/avatars/{hash} if not a full URL).
+2. Parse draft_picks.json to assign each pick to the correct team (via picked_by). Count the "poop" emoji reactions per player and total them per team. Store details of each poop event.
+3. Use draft.json for season/year and league_name if available.
+4. For each team, write a one-sentence **blurb_good** and **blurb_bad** analyzing their draft (based on roster construction, positional balance, risks, or notable players). Assign a grade (A, B+, B, C, etc.).
+5. Rate **creativity_score** (1–10) based on the cleverness of their team_name in teams.json.
+6. In "superlatives", fill in:
+   - "most_poops" = top 3 user_ids by poop_count
+   - "best_team_name" = most creative names (subjective)
+   - "best_draft" = team that got the best values (subjective)
+   - "shakiest_draft" = team with most risky/poor balance (subjective)
+
+Output: Return only valid JSON following the structure above.

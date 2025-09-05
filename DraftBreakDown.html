@@ -1,247 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>2025 The Gang Football League — Draft Recap & Report Cards</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2025 Draft Recap</title>
   <style>
-    :root{
-      --bg:#0f172a;        /* slate-900 */
-      --panel:#111827;     /* gray-900 */
-      --card:#0b1224;      /* deep navy */
-      --ink:#e5e7eb;       /* gray-200 */
-      --muted:#94a3b8;     /* slate-400 */
-      --accent:#22d3ee;    /* cyan-400 */
-      --good:#22c55e;      /* green-500 */
-      --bad:#f43f5e;       /* rose-500 */
-      --warn:#f59e0b;      /* amber-500 */
-      --link:#60a5fa;      /* blue-400 */
-    }
-    html,body{background:linear-gradient(180deg,var(--bg),#020617);margin:0;color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";}
-    .wrap{max-width:980px;margin:40px auto;padding:0 20px 60px;}
-    header{background:radial-gradient(1200px 400px at 20% -10%, rgba(34,211,238,.25), transparent);
-            padding:28px 22px;border:1px solid rgba(255,255,255,.06);border-radius:16px;}
+    :root{ --bg:#0f172a; --ink:#e5e7eb; --muted:#94a3b8; --accent:#22d3ee; --good:#22c55e; --bad:#f43f5e; --panel:rgba(255,255,255,.06); }
+    html,body{margin:0;background:#0b1020;color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    .wrap{max-width:1000px;margin:36px auto;padding:0 18px 60px}
+    header{padding:24px 18px;border:1px solid var(--panel);border-radius:16px;background:radial-gradient(800px 340px at 15% -10%, rgba(34,211,238,.22), transparent)}
     h1{margin:0 0 6px;font-size:28px;line-height:1.2}
-    .sub{color:var(--muted);margin-top:6px}
-    .badge{display:inline-block;padding:.25rem .55rem;border:1px solid rgba(255,255,255,.15);border-radius:999px;color:var(--accent);font-weight:600;font-size:12px;margin-left:8px}
-    .grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:22px}
-    @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
-    .card{background:linear-gradient(180deg,rgba(96,165,250,.04),transparent);
-          border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:18px 16px}
-    .team{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
-    .team h2{font-size:18px;margin:0}
-    .grade{margin-left:auto;background:rgba(34,197,94,.13);color:var(--good);
-           border:1px solid rgba(34,197,94,.35);padding:.2rem .5rem;border-radius:8px;font-weight:700}
-    .grade.bad{background:rgba(244,63,94,.12);color:var(--bad);border-color:rgba(244,63,94,.35)}
-    .meta{display:flex;gap:12px;color:var(--muted);font-size:13px;margin:6px 0 10px}
-    .pill{border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:.1rem .5rem}
+    .sub{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:20px}
+    @media (min-width:780px){.grid{grid-template-columns:1fr 1fr}}
+    .card{border:1px solid var(--panel);border-radius:16px;padding:16px;background:linear-gradient(180deg,rgba(96,165,250,.05),transparent)}
+    .head{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .head h2{font-size:18px;margin:0}
+    .avatar{width:28px;height:28px;border-radius:50%;object-fit:cover;border:1px solid var(--panel)}
+    .badge{margin-left:auto;border:1px solid var(--panel);border-radius:8px;padding:.15rem .5rem;font-weight:700}
+    .badge.bad{color:var(--bad);border-color:rgba(244,63,94,.35);background:rgba(244,63,94,.1)}
+    .badge.good{color:var(--good);border-color:rgba(34,197,94,.35);background:rgba(34,197,94,.1)}
+    .meta{display:flex;gap:10px;color:var(--muted);font-size:13px;margin:6px 0 10px;flex-wrap:wrap}
+    .pill{border:1px solid var(--panel);border-radius:999px;padding:.1rem .5rem}
     .good{color:var(--good)}
     .bad{color:var(--bad)}
-    .poop{font-size:14px}
-    .section-title{margin:34px 0 10px;font-size:18px;color:var(--accent)}
+    .section-title{margin:28px 0 10px;font-size:18px;color:var(--accent)}
     .awards{display:grid;grid-template-columns:1fr;gap:10px}
-    @media(min-width:760px){.awards{grid-template-columns:1fr 1fr}}
-    .award{background:linear-gradient(180deg,rgba(34,211,238,.06),transparent);
-           border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:12px}
-    a{color:var(--link);text-decoration:none}
-    a:hover{text-decoration:underline}
-    footer{color:var(--muted);margin-top:26px;font-size:13px}
-    .index{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
-    .index a{border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:.25rem .6rem}
+    @media (min-width:780px){.awards{grid-template-columns:1fr 1fr}}
+    .award{border:1px solid var(--panel);border-radius:12px;padding:12px;background:linear-gradient(180deg,rgba(34,211,238,.06),transparent)}
+    .index{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+    .index a{border:1px solid var(--panel);border-radius:999px;padding:.25rem .6rem;color:#60a5fa;text-decoration:none}
+    .index a:hover{text-decoration:underline}
     .small{font-size:13px;color:var(--muted)}
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <h1>🏈 2025 The Gang Football League — Draft Recap & Report Cards</h1>
-      <div class="sub">Breakdown of Drafts: grades, the good & bad, team‑name creativity, and notable 💩 reactions.</div>
-      <div class="index">
-        <a href="#mara">Team Mara 🫶🏻</a>
-        <a href="#ceedeez">CEEDEEZ NUTS</a>
-        <a href="#tut">Curse of the Tutenkha-men</a>
-        <a href="#wizards">Waiver Wire Wizards</a>
-        <a href="#lobos">Kyle’s Lobos</a>
-        <a href="#mrurkin">MrUrkin</a>
-        <a href="#bijan">Bijan Mustard</a>
-        <a href="#kyler">Kyler Instinct</a>
-        <a href="#bbc">BigBallsCumming</a>
-        <a href="#tinkle">Team Tinkle</a>
-        <a href="#mikelee">mikelee204</a>
-        <a href="#drslurpea">drslurpea</a>
-      </div>
-    </header>
+<div class="wrap">
+  <header>
+    <h1 id="leagueTitle">🏈 Draft Recap & Report Cards</h1>
+    <div class="sub">Powered by AI</div>
+    <nav class="index" id="indexNav"></nav>
+  </header>
 
-    <section class="grid">
+  <section class="grid" id="cards"></section>
 
-      <article id="mara" class="card">
-        <div class="team">
-          <h2>Team Mara 🫶🏻 (MaraLindsay)</h2>
-          <span class="grade">B+</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 5/10</span>
-          <span class="pill poop">💩 Bucky Irving caught a poop</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> Amon‑Ra St. Brown with Jalen Hurts forms a weekly hammer; Kamara adds steady RB depth.</p>
-        <p class="bad"><strong>The Bad:</strong> Lacks a true RB1 unless a breakout hits.</p>
-      </article>
+  <h3 class="section-title">📊 League Superlatives</h3>
+  <div class="awards" id="awards"></div>
 
-      <article id="ceedeez" class="card">
-        <div class="team">
-          <h2>CEEDEEZ NUTS (nadders100)</h2>
-          <span class="grade">A-</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 7/10</span>
-          <span class="pill">😭 on Chase Brown</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> Namesake anchor CeeDee Lamb, plus Tee Higgins and upside at RB with Chase Brown.</p>
-        <p class="bad"><strong>The Bad:</strong> Brown is a volatile bet as an every‑down option.</p>
-      </article>
+  <footer>
+    <p class="small">Tip: Press ⌘/Ctrl + P to print or “Save as PDF”. If opening locally, serve via a simple HTTP server (e.g., <code>python -m http.server</code>).</p>
+  </footer>
+</div>
 
-      <article id="tut" class="card">
-        <div class="team">
-          <h2>Curse of the Tutenkha-men (mikejones69)</h2>
-          <span class="grade bad">C+</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 8/10</span>
-          <span class="pill poop">💩💩 on Jahmyr Gibbs</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> Bold on Ashton Jeanty; Josh Jacobs stabilizes the RB room.</p>
-        <p class="bad"><strong>The Bad:</strong> Gibbs at 1.01 drew heat and the start felt disjointed early.</p>
-      </article>
+<script>
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const leagueId = urlParams.get('league') || '1242919056370040832'; // "John"
+  async function loadData() {
 
-      <article id="wizards" class="card">
-        <div class="team">
-          <h2>Waiver Wire Wizards (BigPhan)</h2>
-          <span class="grade">B</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 9/10</span>
-          <span class="pill poop">💩 on Baker Mayfield</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> Youthful core in Puka Nacua, De’Von Achane, and Breece Hall; upside everywhere.</p>
-        <p class="bad"><strong>The Bad:</strong> Mayfield reach taxed depth at other spots.</p>
-      </article>
+    const res = await fetch('league_data_'+ leagueId  +'.json', {cache:'no-store'});
+    if (!res.ok) throw new Error('Failed to load JSON');
+    return await res.json();
+  }
 
-      <article id="lobos" class="card">
-        <div class="team">
-          <h2>Kyle’s Lobos (kylem5858)</h2>
-          <span class="grade">A</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 6/10</span>
-          <span class="pill poop">💩 on CMC</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> CMC at 1.08 was a steal; A.J. Brown + Marvin Harrison Jr. give elite weekly ceiling.</p>
-        <p class="bad"><strong>The Bad:</strong> Jayden Daniels is exciting but risky as QB1.</p>
-      </article>
+  function gradeClass(grade) {
+    const letter = (grade||'B').charAt(0);
+    return ['A'].includes(letter) ? 'badge good' : (['D','F','C'].includes(letter) ? 'badge bad' : 'badge');
+  }
+  function poopLabel(count) { return (!count) ? 'No poops received' : '💩 x' + count; }
 
-      <article id="mrurkin" class="card">
-        <div class="team">
-          <h2>MrUrkin (no team name)</h2>
-          <span class="grade bad">C</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 1/10</span>
-          <span class="pill poop">💩💩💩 on Brock Bowers; 💩💩 on Rashee Rice</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> Justin Jefferson is a bankable WR1; Trey McBride value was sharp.</p>
-        <p class="bad"><strong>The Bad:</strong> Heavy pushback on Bowers and Rice; overall stability is a concern.</p>
-      </article>
+  function render(league) {
+    const title = document.getElementById('leagueTitle');
+    title.textContent = `🏈 ${league.season} ${league.league_name} — Draft Recap & Report Cards`;
 
-      <article id="bijan" class="card">
-        <div class="team">
-          <h2>Bijan Mustard (KingKoopa1169)</h2>
-          <span class="grade">B+</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 9/10</span>
-          <span class="pill">Clean draft</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> Bijan Robinson + Kyren Williams provide a safe, productive RB base.</p>
-        <p class="bad"><strong>The Bad:</strong> WR room lacks a true alpha.</p>
-      </article>
+    const cards = document.getElementById('cards');
+    const nav = document.getElementById('indexNav');
+    const awards = document.getElementById('awards');
+    const totalPoops = league.teams.reduce((sum, team) => sum + team.poop_count, 0);
 
-      <article id="kyler" class="card">
-        <div class="team">
-          <h2>Kyler Instinct (Reptarrrrr)</h2>
-          <span class="grade">B-</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 8/10</span>
-          <span class="pill">😅 Thin at RB</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> Nico Collins + Brian Thomas Jr. give real WR upside.</p>
-        <p class="bad"><strong>The Bad:</strong> Chuba Hubbard and TreVeyon Henderson leave RB fragile.</p>
-      </article>
+    league.teams.sort((a,b) => a.team_name.localeCompare(b.team_name));
 
-      <article id="bbc" class="card">
-        <div class="team">
-          <h2>BigBallsCumming</h2>
-          <span class="grade bad">C-</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 2/10</span>
-          <span class="pill poop">💩💩💩💩 on Derrick Henry</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> Saquon Barkley + Derrick Henry is throwback thunder; Lamar stabilizes QB.</p>
-        <p class="bad"><strong>The Bad:</strong> Age/volume risk and the room hated the Henry pick.</p>
-      </article>
+    league.teams.forEach(t => {
+      const a = document.createElement('a');
+      const id = t.display_name.toLowerCase().replace(/[^a-z0-9]+/g,'-');
+      a.href = '#' + id;
+      a.textContent = t.team_name;
+      nav.appendChild(a);
+    });
 
-      <article id="tinkle" class="card">
-        <div class="team">
-          <h2>Team Tinkle (Tinkle89)</h2>
-          <span class="grade">B</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 6/10</span>
-          <span class="pill">Minimal poop</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> Malik Nabers, Drake London, and Tyreek Hill = dynamic WR trio. Aaron Jones adds balance.</p>
-        <p class="bad"><strong>The Bad:</strong> Bo Nix as QB1 is a coin flip early.</p>
-      </article>
+    league.teams.forEach(t => {
+      const id = t.display_name.toLowerCase().replace(/[^a-z0-9]+/g,'-');
 
-      <article id="mikelee" class="card">
-        <div class="team">
-          <h2>mikelee204 (no team name)</h2>
-          <span class="grade bad">C</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 1/10</span>
-          <span class="pill poop">💩💩 on Jahmyr Gibbs; 💩💩💩💩 on Zay Flowers</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> Gutsy #1 pick (Gibbs) followed by Jonathan Taylor and JSN to balance the start.</p>
-        <p class="bad"><strong>The Bad:</strong> Flowers pick got buried in poops and could age poorly.</p>
-      </article>
+      const card = document.createElement('article');
+      card.className = 'card';
+      card.id = id;
 
-      <article id="drslurpea" class="card">
-        <div class="team">
-          <h2>drslurpea (no team name)</h2>
-          <span class="grade">B</span>
-        </div>
-        <div class="meta">
-          <span class="badge">Team‑Name Creativity 1/10</span>
-          <span class="pill poop">💩 on Josh Allen (R2)</span>
-        </div>
-        <p class="good"><strong>The Good:</strong> Ja’Marr Chase + Josh Allen + Davante Adams = elite foundation; James Cook/Conner add stability.</p>
-        <p class="bad"><strong>The Bad:</strong> Early WR/QB focus left RB depth thinner than ideal.</p>
-      </article>
+      const head = document.createElement('div');
+      head.className = 'head';
 
-    </section>
+      const img = document.createElement('img');
+      img.className = 'avatar';
+      img.src = t.avatar_url;
+      img.alt = 'avatar';
 
-    <h3 class="section-title">📊 League Superlatives</h3>
-    <div class="awards">
-      <div class="award"><strong>Most Poops Award:</strong> BigBallsCumming (Henry), plus strong showings from mikelee204 (Flowers) and MrUrkin (Bowers/Rice).</div>
-      <div class="award"><strong>Best Team Name:</strong> Tie — <em>Bijan Mustard</em> & <em>Waiver Wire Wizards</em>.</div>
-      <div class="award"><strong>Best Draft:</strong> <em>Kyle’s Lobos</em> — value and ceiling at every turn.</div>
-      <div class="award"><strong>Shakiest Draft:</strong> <em>mikelee204</em> — risky top pick + poop‑bomb Flowers.</div>
-    </div>
+      const h2 = document.createElement('h2');
+      h2.textContent = `${t.team_name} (${t.display_name})`;
 
-    <footer>
-    </footer>
-  </div>
+      const grade = document.createElement('span');
+      grade.className = gradeClass(t.grade);
+      grade.textContent = t.grade;
+
+      head.appendChild(img);
+      head.appendChild(h2);
+      head.appendChild(grade);
+
+      const meta = document.createElement('div');
+      meta.className = 'meta';
+      const pill1 = document.createElement('span');
+      pill1.className = 'pill';
+      pill1.textContent = `Creativity ${t.creativity_score}/10`;
+      const pill2 = document.createElement('span');
+      pill2.className = 'pill';
+      if(totalPoops > 0){
+        pill2.textContent = poopLabel(t.poop_count);
+      }
+      meta.appendChild(pill1);
+      meta.appendChild(pill2);
+
+      const good = document.createElement('p');
+      good.className = 'good';
+      good.innerHTML = '<strong>The Good:</strong> ' + (t.blurb_good||'');
+
+      const bad = document.createElement('p');
+      bad.className = 'bad';
+      bad.innerHTML = '<strong>The Bad:</strong> ' + (t.blurb_bad||'');
+
+      card.appendChild(head);
+      card.appendChild(meta);
+      card.appendChild(good);
+      card.appendChild(bad);
+
+      if (t.poop_events && t.poop_events.length) {
+        const list = document.createElement('p');
+        list.className = 'small';
+        list.textContent = 'Poop events: ' + t.poop_events.map(e => `${e.player} (R${e.round}: 💩x${e.poops})`).join('; ');
+        card.appendChild(list);
+      }
+
+      cards.appendChild(card);
+    });
+
+    const idmap = Object.fromEntries(league.teams.map(t => [t.user_id, t.team_name]));
+    function names(ids){ return (ids||[]).map(i => idmap[i]||i).join(', ')}
+    function name(id){return idmap[id]}
+
+    const aw = [];
+    aw.push(
+            ['Best Draft', idmap[league.superlatives.best_draft.team_id] + " - " + league.superlatives.best_draft.info],
+            ['Shakiest Draft', idmap[league.superlatives.shakiest_draft.team_id] + " - " + league.superlatives.shakiest_draft.info],
+            ['Best Team Name', names(league.superlatives.best_team_name)]
+    );
+    if (league.superlatives.most_poops && league.superlatives.most_poops.length > 0) {
+      aw.push(['Most Poops Award', names(league.superlatives.most_poops)]);
+    }
+    aw.forEach(([label, val]) => {
+      const div = document.createElement('div');
+      div.className = 'award';
+      div.innerHTML = `<strong>${label}:</strong> <em>${val}</em>`;
+      awards.appendChild(div);
+    });
+  }
+
+  loadData().then(render).catch(err => {
+    console.error(err);
+    const p = document.createElement('p');
+    p.textContent = 'Failed to load league_data.json. If viewing locally, start a simple HTTP server.';
+    document.body.appendChild(p);
+  });
+</script>
 </body>
 </html>

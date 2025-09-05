@@ -1,0 +1,151 @@
+[
+  {
+    "avatar": "b3338675f635c2c1f42b469621d38ec6",
+    "display_name": "THESHAM",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1264037250795065344",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "J. Huck Foreva"
+    },
+    "settings": null,
+    "user_id": "791851837832691712"
+  },
+  {
+    "avatar": "ff75da86cf25d043f61cc0413384b0e2",
+    "display_name": "BigPhan",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1264037250795065344",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/4efa8baa4325a1360ab881da09e934de.jpg",
+      "mention_pn": "on",
+      "team_name": "Mayfield of Dreams "
+    },
+    "settings": null,
+    "user_id": "1123697804968300544"
+  },
+  {
+    "avatar": "73c09b835c08e601421ab92e94371324",
+    "display_name": "kylem5858",
+    "is_bot": false,
+    "is_owner": false,
+    "league_id": "1264037250795065344",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/b9667a9973e2b3d48914983bb249b151.jpg",
+      "mention_pn": "on",
+      "team_name": "Kiraman Katibin"
+    },
+    "settings": null,
+    "user_id": "1244760353116524545"
+  },
+  {
+    "avatar": "7cba474773246954113a1ebfe5da54a8",
+    "display_name": "MaraLindsay",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1264037250795065344",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/2c7ed90031af4a1eb44671acb34be97e.jpg",
+      "mention_pn": "on",
+      "team_name": "Kirit Thakrar"
+    },
+    "settings": null,
+    "user_id": "1256991944282746880"
+  },
+  {
+    "avatar": "33e838d6d8ff50a39eb8f9f23b38ad02",
+    "display_name": "MattBednarz",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1264037250795065344",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Bro-Lo El Cordero"
+    },
+    "settings": null,
+    "user_id": "1264076538492497920"
+  },
+  {
+    "avatar": "02bde56c513a00310f27d36990866872",
+    "display_name": "kmelmo",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1264037250795065344",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1264083965258510336"
+  },
+  {
+    "avatar": "51385ba57cd089261f6de9ce483b8716",
+    "display_name": "athawani",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1264037250795065344",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1266507148276289536"
+  },
+  {
+    "avatar": "8f37256a505c7e29d90d7c12c9a6a55c",
+    "display_name": "AmandaRowluk",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1264037250795065344",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1266516452886708224"
+  },
+  {
+    "avatar": "578c6b253dd7b4bab45382e1af102204",
+    "display_name": "shaint21",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1264037250795065344",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1266517366909456384"
+  },
+  {
+    "avatar": "d55d1f7075eda01948318de4af616075",
+    "display_name": "brocksmittysmith",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1264037250795065344",
+    "metadata": {
+      "allow_pn": "on",
+      "league_report_pn": "on",
+      "mascot_message": "on",
+      "mention_pn": "on",
+      "player_like_pn": "on",
+      "player_nickname_update": "on",
+      "team_name_update": "on",
+      "trade_block_pn": "on",
+      "transaction_commissioner": "on",
+      "transaction_free_agent": "on",
+      "transaction_trade": "on",
+      "transaction_waiver": "on",
+      "user_message_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1266593204229120000"
+  }
+]
