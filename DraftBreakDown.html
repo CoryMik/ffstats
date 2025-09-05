@@ -118,14 +118,15 @@
       meta.className = 'meta';
       const pill1 = document.createElement('span');
       pill1.className = 'pill';
-      pill1.textContent = `Creativity ${t.creativity_score}/10`;
-      const pill2 = document.createElement('span');
-      pill2.className = 'pill';
-      if(totalPoops > 0){
-        pill2.textContent = poopLabel(t.poop_count);
-      }
+      pill1.textContent = `Team name creativity ${t.creativity_score}/10`;
       meta.appendChild(pill1);
-      meta.appendChild(pill2);
+
+      if(totalPoops > 0){
+        const pill2 = document.createElement('span');
+        pill2.className = 'pill';
+        pill2.textContent = poopLabel(t.poop_count);
+        meta.appendChild(pill2);
+      }
 
       const good = document.createElement('p');
       good.className = 'good';
