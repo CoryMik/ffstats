@@ -1,0 +1,271 @@
+{
+  "league_name": "The Gang Football League",
+  "season": 2025,
+  "scoring_type": "ppr",
+  "superlatives": {
+    "most_poops": [
+      "1257034530158551040",
+      "1256782215556108288",
+      "1256123465950302208"
+    ],
+    "best_team_name": [
+      "1256145595144339456",
+      "1123697804968300544"
+    ],
+    "best_draft": {
+        "team_id":"1244760353116524545",
+        "info":"value and ceiling at every turn."
+      },
+    "shakiest_draft": {
+      "team_id": "1257034530158551040",
+      "info": "risky top pick + poop-bomb flowers"
+    }
+  },
+  "teams": [
+    {
+      "user_id": "769695853622796288",
+      "display_name": "mikejones69",
+      "team_name": "Curse of the Tutenkha-men",
+      "avatar_url": "https://sleepercdn.com/avatars/2d810b72562fc0a1ee976ac7618bf747",
+      "grade": "C+",
+      "creativity_score": 8,
+      "blurb_good": "Bold on Ashton Jeanty; Josh Jacobs stabilizes the RB room.",
+      "blurb_bad": "Opening RB-RB squeezed value elsewhere.",
+      "poop_count": 1,
+      "poop_events": [
+        {
+          "player": "Jerome Ford",
+          "round": 11,
+          "poops": 1
+        }
+      ]
+    },
+    {
+      "user_id": "865993939738599424",
+      "display_name": "nadders100",
+      "team_name": "CEEDEEZ NUTS",
+      "avatar_url": "https://sleepercdn.com/uploads/6bddb08b63d6c1a137f8f8e0f3b0f0dd.jpg",
+      "grade": "A-",
+      "creativity_score": 7,
+      "blurb_good": "Namesake anchor CeeDee Lamb, plus Tee Higgins and upside at RB with Chase Brown.",
+      "blurb_bad": "Chase Brown is a volatile bet as an every\u2011down option.",
+      "poop_count": 2,
+      "poop_events": [
+        {
+          "player": "Dak Prescott",
+          "round": 10,
+          "poops": 2
+        }
+      ]
+    },
+    {
+      "user_id": "872845979555115008",
+      "display_name": "drslurpea",
+      "team_name": "drslurpea",
+      "avatar_url": "https://sleepercdn.com/uploads/58dd4dae8f34b8d3a5b7258c80b65a74",
+      "grade": "B",
+      "creativity_score": 1,
+      "blurb_good": "Ja\u2019Marr Chase + Josh Allen + Davante Adams = elite foundation; James Cook/Conner add stability.",
+      "blurb_bad": "Early WR/QB focus left RB depth thinner than ideal.",
+      "poop_count": 3,
+      "poop_events": [
+        {
+          "player": "Josh Allen",
+          "round": 2,
+          "poops": 1
+        },
+        {
+          "player": "Travis Etienne",
+          "round": 8,
+          "poops": 2
+        }
+      ]
+    },
+    {
+      "user_id": "1123697804968300544",
+      "display_name": "BigPhan",
+      "team_name": "Waiver Wire Wizards",
+      "avatar_url": "https://sleepercdn.com/uploads/1a4c9ac44d247fb4aa3772e0ed177ff7",
+      "grade": "B",
+      "creativity_score": 9,
+      "blurb_good": "Youthful core in Puka Nacua, De\u2019Von Achane, and Breece Hall; upside everywhere.",
+      "blurb_bad": "Baker Mayfield reach taxed depth at other spots.",
+      "poop_count": 1,
+      "poop_events": [
+        {
+          "player": "Baker Mayfield",
+          "round": 5,
+          "poops": 1
+        }
+      ]
+    },
+    {
+      "user_id": "1244760353116524545",
+      "display_name": "kylem5858",
+      "team_name": "Kyle\u2019s Lobos",
+      "avatar_url": "https://sleepercdn.com/avatars/73c09b835c08e601421ab92e94371324",
+      "grade": "A",
+      "creativity_score": 6,
+      "blurb_good": "CMC at 1.08 was a steal; A.J. Brown + Marvin Harrison Jr. give elite weekly ceiling.",
+      "blurb_bad": "Jayden Daniels is exciting but risky as QB1.",
+      "poop_count": 1,
+      "poop_events": [
+        {
+          "player": "Christian McCaffrey",
+          "round": 1,
+          "poops": 1
+        }
+      ]
+    },
+    {
+      "user_id": "1256123465950302208",
+      "display_name": "MrUrkin",
+      "team_name": "MrUrkin",
+      "avatar_url": "https://sleepercdn.com/avatars/578c6b253dd7b4bab45382e1af102204",
+      "grade": "C",
+      "creativity_score": 1,
+      "blurb_good": "Justin Jefferson is a bankable WR1; Trey McBride value was sharp.",
+      "blurb_bad": "Heavy pushback on Bowers and Rice; overall stability is a concern.",
+      "poop_count": 5,
+      "poop_events": [
+        {
+          "player": "Brock Bowers",
+          "round": 2,
+          "poops": 3
+        },
+        {
+          "player": "Rashee Rice",
+          "round": 6,
+          "poops": 2
+        }
+      ]
+    },
+    {
+      "user_id": "1256145595144339456",
+      "display_name": "KingKoopa1169",
+      "team_name": "Bijan Mustard",
+      "avatar_url": "https://sleepercdn.com/avatars/d22e52781a5d7a94bcbf2aa70e748382",
+      "grade": "B+",
+      "creativity_score": 9,
+      "blurb_good": "Bijan Robinson + Kyren Williams provide a safe, productive RB base.",
+      "blurb_bad": "WR room lacks a true alpha.",
+      "poop_count": 4,
+      "poop_events": [
+        {
+          "player": "Jared Goff",
+          "round": 6,
+          "poops": 2
+        },
+        {
+          "player": "Jakobi Meyers",
+          "round": 9,
+          "poops": 2
+        }
+      ]
+    },
+    {
+      "user_id": "1256259758621470720",
+      "display_name": "Reptarrrrr",
+      "team_name": "Kyler Instinct",
+      "avatar_url": "https://sleepercdn.com/images/v2/icons/player_default.webp",
+      "grade": "B-",
+      "creativity_score": 8,
+      "blurb_good": "Nico Collins + Brian Thomas Jr. give real WR upside.",
+      "blurb_bad": "Chuba Hubbard and TreVeyon Henderson leave RB fragile.",
+      "poop_count": 0,
+      "poop_events": []
+    },
+    {
+      "user_id": "1256782215556108288",
+      "display_name": "BigBallsCumming",
+      "team_name": "BigBallsCumming",
+      "avatar_url": "https://sleepercdn.com/avatars/d22e52781a5d7a94bcbf2aa70e748382",
+      "grade": "C-",
+      "creativity_score": 2,
+      "blurb_good": "Saquon Barkley + Derrick Henry is throwback thunder; Lamar stabilizes QB.",
+      "blurb_bad": "Age/volume risk and the room hated the Henry pick.",
+      "poop_count": 8,
+      "poop_events": [
+        {
+          "player": "Derrick Henry",
+          "round": 2,
+          "poops": 4
+        },
+        {
+          "player": "Cameron Dicker",
+          "round": 12,
+          "poops": 4
+        }
+      ]
+    },
+    {
+      "user_id": "1256991944282746880",
+      "display_name": "MaraLindsay",
+      "team_name": "Team Mara \ud83e\udef6\ud83c\udffb",
+      "avatar_url": "https://sleepercdn.com/avatars/7cba474773246954113a1ebfe5da54a8",
+      "grade": "B+",
+      "creativity_score": 5,
+      "blurb_good": "Amon\u2011Ra St. Brown with Jalen Hurts forms a weekly hammer; Kamara adds steady RB depth.",
+      "blurb_bad": "Lacks a true RB1 unless a breakout hits.",
+      "poop_count": 1,
+      "poop_events": [
+        {
+          "player": "Bucky Irving",
+          "round": 2,
+          "poops": 1
+        }
+      ]
+    },
+    {
+      "user_id": "1256997488724811776",
+      "display_name": "Tinkle89",
+      "team_name": "Team Tinkle",
+      "avatar_url": "https://sleepercdn.com/avatars/578c6b253dd7b4bab45382e1af102204",
+      "grade": "B",
+      "creativity_score": 6,
+      "blurb_good": "Malik Nabers, Drake London, and Tyreek Hill = dynamic WR trio. Aaron Jones adds balance.",
+      "blurb_bad": "Bo Nix as QB1 is a coin flip early.",
+      "poop_count": 1,
+      "poop_events": [
+        {
+          "player": "Jake Bates",
+          "round": 11,
+          "poops": 1
+        }
+      ]
+    },
+    {
+      "user_id": "1257034530158551040",
+      "display_name": "mikelee204",
+      "team_name": "mikelee204",
+      "avatar_url": "https://sleepercdn.com/avatars/d55d1f7075eda01948318de4af616075",
+      "grade": "C",
+      "creativity_score": 1,
+      "blurb_good": "Gutsy #1 pick (Gibbs) followed by Jonathan Taylor and JSN to balance the start.",
+      "blurb_bad": "Flowers pick got buried in poops and could age poorly.",
+      "poop_count": 17,
+      "poop_events": [
+        {
+          "player": "Jahmyr Gibbs",
+          "round": 1,
+          "poops": 2
+        },
+        {
+          "player": "Zay Flowers",
+          "round": 5,
+          "poops": 4
+        },
+        {
+          "player": "Brandon Aubrey",
+          "round": 9,
+          "poops": 4
+        },
+        {
+          "player": "Brandon Aiyuk",
+          "round": 14,
+          "poops": 7
+        }
+      ]
+    }
+  ]
+}

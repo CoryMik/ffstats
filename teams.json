@@ -1,0 +1,171 @@
+[
+  {
+    "avatar": "2d810b72562fc0a1ee976ac7618bf747",
+    "display_name": "mikejones69",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Curse of the Tutenkha-men"
+    },
+    "settings": null,
+    "user_id": "769695853622796288"
+  },
+  {
+    "avatar": "9a39294cabe9ebe5b352f383e2a5ffa1",
+    "display_name": "nadders100",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "archived": "off",
+      "avatar": "https://sleepercdn.com/uploads/6bddb08b63d6c1a137f8f8e0f3b0f0dd.jpg",
+      "mention_pn": "on",
+      "team_name": "CEEDEEZ NUTS"
+    },
+    "settings": null,
+    "user_id": "865993939738599424"
+  },
+  {
+    "avatar": "e7af4deab0289b4f5505646424895246",
+    "display_name": "drslurpea",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "allow_sms": "on",
+      "avatar": "https://sleepercdn.com/uploads/58dd4dae8f34b8d3a5b7258c80b65a74",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "872845979555115008"
+  },
+  {
+    "avatar": "ff75da86cf25d043f61cc0413384b0e2",
+    "display_name": "BigPhan",
+    "is_bot": false,
+    "is_owner": true,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "avatar": "https://sleepercdn.com/uploads/1a4c9ac44d247fb4aa3772e0ed177ff7",
+      "mention_pn": "on",
+      "team_name": "Waiver Wire Wizards"
+    },
+    "settings": null,
+    "user_id": "1123697804968300544"
+  },
+  {
+    "avatar": "73c09b835c08e601421ab92e94371324",
+    "display_name": "kylem5858",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Kyle’s Lobos"
+    },
+    "settings": null,
+    "user_id": "1244760353116524545"
+  },
+  {
+    "avatar": "578c6b253dd7b4bab45382e1af102204",
+    "display_name": "MrUrkin",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1256123465950302208"
+  },
+  {
+    "avatar": "d22e52781a5d7a94bcbf2aa70e748382",
+    "display_name": "KingKoopa1169",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Bijan Mustard"
+    },
+    "settings": null,
+    "user_id": "1256145595144339456"
+  },
+  {
+    "avatar": null,
+    "display_name": "Reptarrrrr",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Kyler Instinct"
+    },
+    "settings": null,
+    "user_id": "1256259758621470720"
+  },
+  {
+    "avatar": "d22e52781a5d7a94bcbf2aa70e748382",
+    "display_name": "BigBallsCumming",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1256782215556108288"
+  },
+  {
+    "avatar": "7cba474773246954113a1ebfe5da54a8",
+    "display_name": "MaraLindsay",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Team Mara 🫶🏻"
+    },
+    "settings": null,
+    "user_id": "1256991944282746880"
+  },
+  {
+    "avatar": "578c6b253dd7b4bab45382e1af102204",
+    "display_name": "Tinkle89",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on",
+      "team_name": "Team Tinkle"
+    },
+    "settings": null,
+    "user_id": "1256997488724811776"
+  },
+  {
+    "avatar": "d55d1f7075eda01948318de4af616075",
+    "display_name": "mikelee204",
+    "is_bot": false,
+    "is_owner": null,
+    "league_id": "1242919056370040832",
+    "metadata": {
+      "allow_pn": "on",
+      "mention_pn": "on"
+    },
+    "settings": null,
+    "user_id": "1257034530158551040"
+  }
+]
